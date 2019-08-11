@@ -1,0 +1,103 @@
+
+#register_form {
+  width: 28%;
+  margin: 0px auto;
+  margin-top: 65px;
+  padding-bottom: 30px;
+  border: none;
+  background: white;
+  box-shadow: 0 14px 28px rgba(0,0,0, 0.50), 0 10px 10px rgba(0,0,0,0.44);
+
+}
+#register_form:hover{
+	box-shadow: 0 10px 15px rgba(0,0,0, 0.80), 0 10px 10px rgba(0,0,0,0.60);
+}
+
+#register_form input {
+		width: 250px;
+		height: 25px;
+		border-radius: 5px;
+		border: none;
+		border: 1px solid #003e5e;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 60px;
+		padding-left: 5px;
+		border-left: 3px solid #003e5e;
+}
+.div_p{
+	background: #003e5e;
+	color: white;
+	text-align: center;
+	margin:0;
+	padding: 15px 0px;
+	margin-bottom: 40px;
+}
+label{
+	margin-top: 30px;
+	margin-left: 50px;
+	padding-left:10px;
+	
+}
+.div_select{
+	width: 250px;
+	height: 25px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid #003e5e;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	padding-left: 5px;
+	border-left: 3px solid #003e5e;
+}
+
+.form_error span {
+width: 80%;
+height: 35px;
+margin-left: 50px;
+padding-left:10px;
+font-size: 1em;
+color: #D83D5A;
+}
+.form_error input{
+	background-color: #ffcccb;
+
+}
+.form_success span {
+	width: 80%;
+	height: 35px;
+	margin-left: 50px;
+	font-size: 1em;
+	color:green;
+}
+
+
+.bttn{
+	width: 100px;
+	height: 40px;
+	background: #003e5e;
+	border-radius: 5px;
+	transition: all 0.3s ease 0s;
+	margin: 10px auto;
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	border:none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	
+}
+.bttn:hover{
+	background-color: #00acc1;
+}
+.bklogin{
+	text-decoration: none;
+	margin-left: 20px;
+	color: rgba(0,136,169,0.8);
+}
+.bklogin:hover{
+	color: #000;
+}
